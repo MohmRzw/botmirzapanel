@@ -1,193 +1,55 @@
-# 🤖 Bot Mirza Panel
+## 🚀 نصب بات Mirza Panel
 
+برای نصب و راه‌اندازی بات Mirza Panel کافی است یکی از دستورات زیر را بسته به نیاز خود در ترمینال سرور اجرا کنید. این اسکریپت به صورت خودکار تمام مراحل نصب و پیکربندی را انجام می‌دهد.
 
-# این پروژه بطور موقت آرشیو شده است. احتمالا در آینده دوباره برمی‌گردیم و ادامه می‌دهیم.
+### 🔧 نصب نسخه پایدار (Stable Version)
 
-# This project is temporarily archived. We are likely to return and continue in the future.
-
-
-A Powerful Bot for Selling VPN Services with Auto Configuration Build.
-
-<p align="center">
-    <a href="https://t.me/mirzapanel" target="_blank">
-        <img src="https://img.shields.io/badge/Telegram-Group-blue?style=flat-square&logo=telegram" alt="Telegram Group"/>
-    </a>
-    <a href="https://github.com/mahdiMGF2/botmirzapanel" target="_blank">
-        <img src="https://img.shields.io/github/stars/mahdiMGF2/botmirzapanel?style=social" alt="GitHub Stars"/>
-    </a>
-    <a href="https://img.shields.io/github/forks/mahdiMGF2/botmirzapanel?style=flat-square" target="_blank">
-        <img src="https://img.shields.io/github/forks/mahdiMGF2/botmirzapanel?style=flat-square" alt="GitHub Forks"/>
-    </a>
-    <a href="https://github.com/mahdiMGF2/botmirzapanel/issues" target="_blank">
-        <img src="https://img.shields.io/github/issues/mahdiMGF2/botmirzapanel?style=flat-square" alt="GitHub Issues"/>
-    </a>
-</p>
-
-
----
-
-## 📚 Table of Contents
-
-- [✨ Overview](#-overview)
-- [⚙️ Features](#️-features)
-- [🚀 Installation](#-installation)
-  - [Beta Installation](#️-beta-installation)
-  - [Updating the Bot](#-updating-bot)
-  - [Removing the Bot](#-removing)
-- [📱 Demo Bot](#-demo-bot)
-- [💵 Financial Support](#-financial-support)
-
----
-
-## ✨ Overview
-
-**Mirza Bot Panel** is a feature-rich Telegram bot designed for selling VPN services for platforms like **Marzban** and **3x-ui panels**. This bot simplifies the process of VPN subscription sales, enabling seamless automation, configuration building, and user management.
-
-Mirza Panel comes in two versions:  
-1. **Free Version** 🆓: Offers basic functionalities to get started with VPN sales.  
-2. **Subscription Version** 💎: Provides advanced features for businesses looking for more customization, detailed analytics, and enhanced management options.  
-
-Whether you’re offering trial accounts or managing large-scale VPN services, this bot covers everything you need to run a successful VPN business.
-
----
-
-## ⚙️ Features
-
-### 🔹 **Free Version Features**
-
-- ✅ VPN Purchase with Auto Configuration Creation
-- ✅ View Purchased Services
-- ✅ Trial Accounts for Users
-- ✅ User Support Section
-- ✅ Verification via Phone Number
-- ✅ Payments via:
-  - Card-to-Card
-  - **NowPayments Gateway**
-  - **aqayepardakht Gateway**
-- ✅ Fully Automated Configuration Creation
-- ✅ Compatibility with All Protocols
-- ✅ Mandatory Channel Membership for Purchases
-- ✅ Detailed Purchase and Trial Account Reports
-- ✅ Tutorial Section with Admin-Customizable Content
-- ✅ Balance Management via Admin Panel
-- ✅ Multiple Admin Support
-- ✅ Manage Purchased Services:
-  - Renewals
-  - Additional Volume Purchases
-  - Configuration Retrieval
-  - Updating Service Links
-- ✅ FAQ Section
-- ✅ Text Customization from the Bot
-- ✅ Product and Panel Management
-- ✅ Admin-Specified Username Generation Methods
-- ✅ Configuration Settings Based on Protocols
-- ✅ Gateway Management
-
----
-
-### 🔹 **Subscription Version Features**
-
-In addition to the features of the Free Version, the Subscription Version includes:
-
-- 🔐 Admin Access Levels (Management, Sales, Support)
-- 🧾 View and Manage All Users in the Bot
-- 🎟️ Advanced Discount Code Management
-- 🤝 Reseller Support
-- 💰 Refund and Service Removal Options
-- ⚡ Advanced Panel-Specific Bandwidth Management
-- 🔄 Manage Panel Status
-- 🔑 Separate Panels for Test Accounts
-- ⏳ Set Service Purchase Durations
-- 📤 Send Configurations Directly After Payment
-- 🔄 Renewal and Volume Purchases (Even for Non-Existing Services)
-- 💳 Inventory Control (Set Minimum and Maximum Inventory Increases)
-- 📩 Support Messages with Admin Responses
-- 🔗 Advanced Subset Management
-- 🛒 Bulk Purchase Options
-- 🆔 Multiple Username Creation Methods
-- 🔍 Quick Service Search
-- 📅 Advanced Cron Job Settings
-- 📊 Comprehensive Bot Statistics
-- ❌ Limit Configuration Creation per Panel
-- 🖥️ Web Panel Integration
-- 🌍 Change Location of Services
-- 🔄 Transfer Services Between Users
-- 💱 Rial Exchange Payment Gateways
-
-📌 **Subscription Purchase Guide**: [View Guide](https://t.me/mirzaperimium/4)
-
----
-
-## 🚀 Installation
-
-### Prerequisites
-
-Ensure you have the following before installation:
-- 🖥️ **Ubuntu Server 22**
-- 🌐 **A Domain Name**
-
-### 🔧 Installing the Bot (Stable Version)
-
-Run the following command in your server terminal:
+برای نصب نسخه اصلی و پایدار بات، دستور زیر را اجرا نمایید:
 
 ```bash
-curl -o install.sh -L https://raw.githubusercontent.com/mahdiMGF2/botmirzapanel/main/install.sh && bash install.sh
+curl -o install.sh -L https://raw.githubusercontent.com/MohmRzw/botmirzapanel/main/install.sh && bash install.sh
 ```
 
-When prompted, **select option 1** to complete the installation.
+پس از اجرای دستور، منویی ظاهر می‌شود که در آن می‌توانید گزینه ۱ را برای نصب انتخاب کنید.
 
 ---
 
-### ⚠️ Beta Installation
+### ⚠️ نصب نسخه آزمایشی (Beta Version)
 
-💡 *Disclaimer*: This is a beta release. It may contain bugs or issues. Use it with caution and report any problems you encounter.
-
-To install the beta version, run:
+در صورتی که مایل به استفاده از نسخه آزمایشی بات هستید، از دستور زیر استفاده کنید. این نسخه ممکن است شامل ویژگی‌های جدید یا تغییراتی باشد که هنوز به صورت نهایی منتشر نشده‌اند:
 
 ```bash
-curl -o install.sh -L https://raw.githubusercontent.com/mahdiMGF2/botmirzapanel/main/install.sh && bash install.sh -beta
+curl -o install.sh -L https://raw.githubusercontent.com/MohmRzw/botmirzapanel/main/install.sh && bash install.sh -beta
 ```
+
+> توجه: استفاده از نسخه بتا در محیط‌های حساس یا سرورهای عملیاتی توصیه نمی‌شود.
 
 ---
 
-## 🔄 updating bot
+### 🔄 بروزرسانی بات
 
-To update your bot to the latest version, use the following command:
+برای بروزرسانی بات به آخرین نسخه، بدون حذف اطلاعات قبلی:
 
 ```bash
-curl -o install.sh -L https://raw.githubusercontent.com/mahdiMGF2/botmirzapanel/main/install.sh && bash install.sh -update
+curl -o install.sh -L https://raw.githubusercontent.com/MohmRzw/botmirzapanel/main/install.sh && bash install.sh -update
 ```
+
+این دستور بات شما را به‌روزرسانی کرده و آخرین تغییرات را اعمال می‌کند.
 
 ---
 
-## ❌ removing
+### ❌ حذف کامل بات
 
-If you want to completely remove the bot from your server, run the following command:
+در صورت نیاز به حذف کامل بات از سرور، می‌توانید از دستور زیر استفاده کنید:
 
 ```bash
-curl -o install.sh -L https://raw.githubusercontent.com/mahdiMGF2/botmirzapanel/main/install.sh && bash install.sh
+curl -o install.sh -L https://raw.githubusercontent.com/MohmRzw/botmirzapanel/main/install.sh && bash install.sh
 ```
 
-When prompted, **select option 3** to remove the bot.
+سپس در منوی نمایش‌داده‌شده، گزینه ۳ (حذف بات) را انتخاب نمایید.
 
 ---
 
-## 📱 Demo Bot
-
-Want to see Mirza Panel in action? Try the demo bot here:  
-👉 [Demo Bot](https://t.me/marzbaninfobot)
+با اجرای هر یک از دستورات بالا، نصب، به‌روزرسانی یا حذف بات به‌صورت کاملاً خودکار انجام خواهد شد و نیاز به تنظیمات دستی نخواهید داشت. این روند به شما کمک می‌کند تا مدیریت بات را با سرعت و سهولت بیشتری انجام دهید.
 
 ---
-
-## 💵 Financial Support
-
-If you find **Mirza Panel** helpful and would like to support its development, you can make a financial contribution via cryptocurrency.
-
-- **TRX Network (TRC20)**:  
-  `TNvwhpNtXxKMFFeVzGR8GNZ6gL4aECituU`
-
-Your support ensures continued updates and improvements for this project. Thank you! 🙌
-
-### Contributors
-
-![Contributors](https://contrib.rocks/image?repo=mahdiMGF2/botmirzapanel)
